@@ -23,11 +23,6 @@ In the Backend directory, run:
 
 Runs the backend at [http://localhost:3001](http://localhost:3001)
 
-In this directory, run:
-### `node server`
-
-Runs the login backend at [http://localhost:8080](http://localhost:8080)
-
 Login credentials are:\
 Username: Admin\
 Password: Admin
