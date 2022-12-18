@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 async function loginUser(credentials) {
-    return fetch('http://localhost:8080/login', {
+    return fetch('http://localhost:3001/login', {
     method: 'POST',
     headers: {
     'Content-Type': 'application/json'
