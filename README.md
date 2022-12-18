@@ -27,7 +27,7 @@ Login credentials are:\
 Username: Admin\
 Password: Admin
 
-These values can be changed and multiple sets of credentials can be added in server.js in this directory.
+These values can be changed and multiple sets of credentials can be added in index.js in backend directory.
 
 # Features
 Search for recipes: Completed\
