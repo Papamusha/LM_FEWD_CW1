@@ -4,6 +4,7 @@ import BarChart from "./NutritionChart";
 
 
 const FetchGraphData = ({ query }) => {
+  //specify categories
   const [nutrition, setNutrition] = useState({
     sugar_g: 0,
     fiber_g: 0,
@@ -18,6 +19,7 @@ const FetchGraphData = ({ query }) => {
     protein_g: 0,
     carbohydrates_total_g: 0,
   });
+  //label displayed categories
   const [chartData, setChartData] = useState({
     labels: ["sugar", "fiber","saturated fat","total fat","protein"],
     datasets: [
@@ -53,7 +55,7 @@ const FetchGraphData = ({ query }) => {
             incomingData.items[0].fat_saturated_g,
             incomingData.items[0].fat_total_g,
             incomingData.items[0].protein_g,
-          ];
+          ]; //category labels
           let filteredLabels = [
             "sugar",
             "fiber",
