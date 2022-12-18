@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import StarRating from "../../../Rating";
 
 //all category filters are identical to MenuItems.js, with a filter added specific to the category
 
@@ -40,6 +41,7 @@ const FilteredDrinks = ({ items }) => {
                   <Card.Text>{item.recipeStep1}</Card.Text>
                   <Card.Text>{item.recipeStep2}</Card.Text>
                   <Button onClick={(e) => handleClick(e, item.name)} variant="primary">Add to Order</Button>
+                  <StarRating />
                 </Card.Body>
                 </Card.ImgOverlay>
               </Card> <br/>

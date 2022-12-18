@@ -30,7 +30,7 @@ Password: Admin
 These values can be changed and multiple sets of credentials can be added in index.js in backend directory.
 
 # Features
-Search for recipes: Completed\
+Search for recipes: Not Completed, issue seems related to backend\
 Filter recipes: Completed\
 View nutritional info: Completed\
 Rate recipes: Completed (Frontend only)\
