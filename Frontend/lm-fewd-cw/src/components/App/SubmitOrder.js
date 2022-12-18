@@ -23,7 +23,7 @@ const SubmitOrder = () => {
         setMessage(
           "Hi " +
             nameField +
-            " thank you for your order. You've ordered " +
+            " thank you for your submission. You've ordered " +
             order
         );
         setOrder([]);
@@ -36,7 +36,7 @@ const SubmitOrder = () => {
   };
   return (
     <Container style={{ width:'400px', height:'400px', borderStyle:'solid' }}>
-      <h2>Submit Order</h2><br/>
+      <h2>Submit Menu</h2><br/>
       <label> Enter your name:</label>
       <input required="yes"
         className="form-control"
